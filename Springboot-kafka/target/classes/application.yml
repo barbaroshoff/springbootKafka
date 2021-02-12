@@ -1,0 +1,12 @@
+# To disable Hystrix in Feign
+feign:
+  hystrix:
+    enabled: false
+
+# To set thread isolation to SEMAPHORE
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE

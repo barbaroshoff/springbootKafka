@@ -1,0 +1,8 @@
+<gs:getCountryResponse xmlns:gs="http://spring.io/guides/gs-producing-web-service">
+    <gs:country>
+        <gs:name>Spain</gs:name>
+        <gs:population>46704314</gs:population>
+        <gs:capital>Madrid</gs:capital>
+        <gs:currency>EUR</gs:currency>
+    </gs:country>
+</gs:getCountryResponse>
